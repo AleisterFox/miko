@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+:root {
+    --blue: #0d2048;
+    --yellow: #ecc401;
+}
+
+header {
+    display: flex;
+    border: 4px solid var(--yellow);
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 2.5vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    width: 50rem;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-70%);
+    color: var(--blue);
+}
+
+
+
+figure {
+    width: 12rem;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    height: auto;
+}
+
+main .left {
+    background-color: var(--blue);
+    width: 50%;
+    color: white;
+    padding: 4rem;
+    padding-top: 25rem;
+}
+
+main .right {
+    padding: 4rem;
+    padding-top: 25rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+main .left p {
+    margin-bottom: 1rem;
+    width: 15rem;
+}
+
+.habilidad {
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+
+.puntos {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.punto {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 10rem;
+    background-color: white;
+}
+
+.punto.completo {
+    background-color: #65a643;
+}
+
+.extract, .experiencias {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #65a643;
+}
+
+.educacion {
+    margin-top: 2rem;
+}
+
+.escuela, .experiencia {
+    margin-bottom: 1rem;
+}
