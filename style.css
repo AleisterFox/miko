@@ -87,7 +87,7 @@ h2 {
 
 main .left p {
     margin-bottom: 1rem;
-    width: 15rem;
+    max-width: 100%;
 }
 
 .habilidad {
