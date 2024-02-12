@@ -63,12 +63,12 @@ main .left {
     width: 50%;
     color: white;
     padding: 4rem;
-    padding-top: 25rem;
+    padding-top: 35rem;
 }
 
 main .right {
     padding: 4rem;
-    padding-top: 25rem;
+    padding-top: 35rem;
 }
 
 p {
@@ -114,6 +114,7 @@ main .left p {
 
 .extract, .experiencias {
     padding-bottom: 2rem;
+    margin-bottom: 5rem;
     border-bottom: 2px solid #65a643;
 }
 
@@ -122,5 +123,5 @@ main .left p {
 }
 
 .escuela, .experiencia {
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
