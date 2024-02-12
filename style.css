@@ -118,10 +118,28 @@ main .left p {
     border-bottom: 2px solid #65a643;
 }
 
+.extract {
+    padding-bottom: 4rem;
+}
+
 .educacion {
     margin-top: 2rem;
 }
 
 .escuela, .experiencia {
     margin-bottom: 5rem;
+}
+
+.experiencia .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experiencia h4 {
+    margin-bottom: 2rem;
+}
+
+.experiencia p {
+    margin-bottom: 1rem;
 }
