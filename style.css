@@ -31,7 +31,7 @@ header {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     width: 50rem;
     text-align: center;
     position: relative;
@@ -72,15 +72,15 @@ main .right {
 }
 
 p {
-    font-size: 1.6rem;
-}
-
-h4 {
     font-size: 2rem;
 }
 
-h2 {
+h4 {
     font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 2.6rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
